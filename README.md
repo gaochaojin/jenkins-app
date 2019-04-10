@@ -36,6 +36,10 @@
 
   - 构建触发器（手动，定时，轮询）
 
+  - Post Steps 执行shell（使用这一步则不用构建包操作，两者二选一）
+
+    shell脚本为项目中的shell.sh
+
   - 构建包操作
 
     WAR/EAR files/Context path/Containers(需要填写tomcat管理的账户和密码以及访问链接)
