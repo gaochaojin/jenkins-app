@@ -19,6 +19,6 @@ public class UserController {
     @RequestMapping("/hello")
     public Object sayHello() {
         logger.debug("测试jenkins自动化部署！");
-        return "hello";
+        return "hello-jenkins";
     }
 }
